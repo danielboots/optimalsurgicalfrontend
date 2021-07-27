@@ -2,27 +2,21 @@
 const metrics = [
   {
     id: 1,
-    stat: "8K+",
-    emphasis: "Companies",
-    rest: "use laoreet amet lacus nibh integer quis.",
+    stat: "29",
+    emphasis: "Major Medical Companies",
+    rest: "We work with 29 major medical companies worldwide from J&J to Ethicon and Becton Dickinson",
   },
   {
     id: 2,
-    stat: "25K+",
+    stat: "21",
     emphasis: "Countries around the globe",
-    rest: "lacus nibh integer quis.",
+    rest: " Our Company operates globally.",
   },
   {
     id: 3,
     stat: "98%",
     emphasis: "Customer satisfaction",
-    rest: "laoreet amet lacus nibh integer quis.",
-  },
-  {
-    id: 4,
-    stat: "12M+",
-    emphasis: "Issues resolved",
-    rest: "lacus nibh integer quis.",
+    rest: " We work with repeat customers as we bring results",
   },
 ];
 
@@ -53,8 +47,9 @@ export default function Stats() {
             Get actionable data that will help grow your Medical practice
           </p>
           <p className="mt-5 text-lg text-coolgray-300">
-            Insert text here to big your company up or achievements you have
-            accomplished... why they should pick you.
+            Our results speak for themselves, from working with major companies
+            to achieving global recognition and success, your business is in
+            safe hands.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
