@@ -1,17 +1,15 @@
-// import Link from "next/link";
+import Carousel from "@/components/Carousel";
 import { sanityClient, urlFor } from "../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
-import Carousel from "@/components/Carousel";
 import Service from "@/components/Service";
 import FeatureTitle from "@/components/FeatureTitle";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Post from "@/components/Post";
-
 import Stats from "@/components/Stats";
 
 const Home = ({ service, post }) => {

@@ -1,42 +1,32 @@
 const Partners = () => {
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <div className="bg-white filter grayscale opacity-80 ">
+      <div className="animate-pulse max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-            <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
+            <div className=" col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img
-                className="h-12"
-                src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                alt="Tuple"
+                className="h-12 -mt-1 "
+                src="/images/becton.png"
+                alt="Becton Dickinson (BD)"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img
-                className="h-12"
-                src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-                alt="Mirage"
-              />
+              <img className="h-12" src="/images/jnj.png" alt="J&J" />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img
-                className="h-12"
-                src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                alt="StaticKit"
+                className="h-6 mt-2 ml-6 "
+                src="/images/ethicon.png"
+                alt="J&J"
               />
             </div>
-            <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+
+            <div className=" col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img
-                className="h-12"
-                src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-                alt="Transistor"
-              />
-            </div>
-            <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-              <img
-                className="h-12"
-                src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                alt="Workcation"
+                className="h-12 -mt-1 mr-10 "
+                src="/images/vuhzept.png"
+                alt="Vuhze "
               />
             </div>
           </div>
