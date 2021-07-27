@@ -4,15 +4,14 @@ import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
-// import BlockContent from "@sanity/block-content-to-react";
+import Carousel from "@/components/Carousel";
 import Service from "@/components/Service";
 import FeatureTitle from "@/components/FeatureTitle";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Post from "@/components/Post";
-import Process from "@/components/Process";
-import NewsLetter from "@/components/NewsLetter";
+
 import Stats from "@/components/Stats";
 
 const Home = ({ service, post }) => {
@@ -81,7 +80,7 @@ const Home = ({ service, post }) => {
         <Hero />
 
         <FeatureTitle />
-
+        <Carousel />
         <Team />
         <About />
         <div className=" p-4 container mx-auto font-body ">

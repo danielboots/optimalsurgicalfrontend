@@ -24,24 +24,32 @@ const Service = ({
               className=" bg-center bg-cover bg-no-repeat m-auto bg-fixed relative h-40v flex justify-center items-center flex-col "
             >
               <div className="absolute h-full w-full flex overflow-x-auto bg-coolgray-900 bg-opacity-50 backdrop-filter  "></div>
-              <h1 className=" text-white z-20 uppercase font-body text-center font-bold  tracking-wider text-3xl  sm:text-4xl md:text-6xl ">
+              <h1 className=" text-white z-20 uppercase font-body text-center font-bold   text-3xl  sm:text-4xl md:text-5xl ">
                 {title}
               </h1>
             </div>
           </div>
 
-          <article className="font-body  shadow-lg mx-auto ">
-            <header className="">
-              <div className=" h-full w-full flex items-center justify-center p-8">
-                <div className="bg-white rounded p-6">
-                  <h1 className="text-4xl mb-4 flex justify-center font-black  text-gray-900 tracking-tight uppercase">
-                    {title}
-                  </h1>
-                  <div>
-                    <p className="text-justify">{description}</p>
+          <div className="   container mx-auto text-lg text-gray-500 text-justify grid  grid-cols-1 p-4 m-10 sm:grid-cols-2">
+            <div className="p-4  flex items-center ">
+              <img
+                src={mainImage.asset.url}
+                className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
+                alt=""
+              />
+            </div>
+            <div className=" px-4 mb-6 flex font-body">
+              <div className=" pt-6">
+                <div className=" text-3xl  justify-center font-black  text-gray-700 pb-4">
+                  {title}...
+                  <div className=" text-sm text-gray-400 tracking-widest">
+                    {tagline}.
                   </div>
                 </div>
+                {description}
               </div>
+            </div>
+            <div className="ml-1 flex">
               <Link href="/contact">
                 <button
                   type="button"
@@ -50,8 +58,8 @@ const Service = ({
                   Enquire ...
                 </button>
               </Link>
-            </header>
-          </article>
+            </div>
+          </div>
         </main>
       </div>
     </Layout>
