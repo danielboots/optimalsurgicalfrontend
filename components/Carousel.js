@@ -15,21 +15,21 @@ const EmblaCarousel = () => {
       ref={emblaRef}
     >
       <div className="embla__container flex ">
-        <div className="embla__slide relative flex-grow-0 flex-shrink-0 w-100 ">
+        <div className="embla__slide relative flex-grow-0 flex-shrink-0  w-100 p-2 bg-white ">
           <img
             className="object-none  w-full ..."
             src="/images/surgery1.webp"
             alt=""
           />
         </div>
-        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100 ">
+        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100  p-2 bg-white">
           <img
             className="object-none  w-full ..."
             src="/images/surgery2.webp"
             alt=""
           />
         </div>
-        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100">
+        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100 p-2 bg-white">
           <img
             className="object-none  w-full ..."
             src="/images/surgery3.webp"
