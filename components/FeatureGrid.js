@@ -3,7 +3,7 @@ const FeatureGrid = () => {
     <div className="   container mx-auto text-lg text-gray-500 text-justify grid  grid-cols-1 p-4 m-10 sm:grid-cols-2">
       <div className="p-4  flex items-center ">
         <img
-          src="/images/3.webp"
+          src="/images/kevinscales.webp"
           className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt=""
         />
@@ -47,15 +47,15 @@ const FeatureGrid = () => {
       </div>
       <div className="px-4 flex items-center ">
         <img
-          src="/images/1.webp"
+          src="/images/surgery3.webp"
           className="justify-center hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt=""
         />
       </div>
       <div className="p-4  flex items-center ">
         <img
-          src="/images/3.webp"
-          className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
+          src="/images/volunteering.webp"
+          className="overflow-hidden  hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt=""
         />
       </div>
@@ -89,7 +89,7 @@ const FeatureGrid = () => {
       </div>
       <div className="px-4 flex items-center ">
         <img
-          src="/images/1.webp"
+          src="/images/surgicalmonitor.webp"
           className="justify-center hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt=""
         />
