@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 import Info from "../components/Info";
 // import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
-import FeatureGrid from "@/components/FeatureGrid";
+import FeatureTitle from "@/components/FeatureTitle";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
@@ -19,6 +19,7 @@ const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
   const [postData, setPost] = useState(null);
   console.log(serviceData);
+  console.log(postData);
 
   useEffect(() => {
     sanityClient
@@ -79,7 +80,7 @@ const Home = ({ service, post }) => {
       <div className="font-body ">
         <Hero />
 
-        <FeatureGrid />
+        <FeatureTitle />
 
         <Team />
         <About />
@@ -124,7 +125,7 @@ const Home = ({ service, post }) => {
 
       <Partners />
       <Info />
-      <NewsLetter />
+      {/* <NewsLetter /> */}
     </Layout>
   );
 };

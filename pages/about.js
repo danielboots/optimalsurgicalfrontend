@@ -1,4 +1,7 @@
 import Layout from "../components/Layout";
+import FeatureGrid from "@/components/FeatureGrid";
+import Team from "@/components/Team";
+import Hero from "@/components/Hero";
 
 const about = () => {
   return (
@@ -6,8 +9,10 @@ const about = () => {
       title="About | Optimal Surgical"
       description="About| Optimal Surgical"
     >
-      <h1>about test _rafce</h1>
-      <p> this is the about page</p>
+      <div className="font-body ">
+        <Hero />
+        <FeatureGrid />
+      </div>
     </Layout>
   );
 };

@@ -43,6 +43,10 @@ export default function Header() {
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
                 <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
+                  <Link href="/about">
+                    <a className="hover:text-gray-800">About</a>
+                  </Link>
+
                   <Link href="/service">
                     <a className="hover:text-gray-800">Services</a>
                   </Link>
@@ -71,8 +75,8 @@ export default function Header() {
 
           <Disclosure.Panel className="sm:hidden">
             <ul className="  px-4 py-6   space-y-6 flex uppercase  font-body bg-coolgray-800 w-full  font-bold tracking-widest text-gray-200 flex-col">
-              <Link href="/">
-                <a>Index</a>
+              <Link href="/about">
+                <a className="hover:text-gray-800">About</a>
               </Link>
               <Link href="/service">
                 <a>Services</a>

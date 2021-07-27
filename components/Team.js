@@ -1,3 +1,4 @@
+import Link from "next/link";
 /*
   This example requires Tailwind CSS v2.0+ 
   
@@ -18,8 +19,8 @@ const people = [
   {
     name: "Kevin Scales",
     role: "Founder Optimal Surgical",
-    imageUrl: "/images/kevin.jpg",
-    bio: "Our team have over 15+ years of industry experience connecting industry players and getting major record label placements and results.",
+    imageUrl: "/images/kevinscales.webp",
+    bio: "Our team have over 20+ years of industry experience we pride ourselves on results and innovation.",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -29,19 +30,27 @@ const people = [
 export default function Team() {
   return (
     <div className="bg-gray-100">
-      <div className="mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+      <div className="mx-auto py-12 px- max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-          <div className="space-y-5 sm:space-y-4">
+          <div className="space-y-5  sm:space-y-4">
             <h2 className="text-3xl font-bold text-coolgray-700 sm:text-4xl">
               About
             </h2>
             <hr />
 
-            <p className="text-lg text-gray-500 font-base">
-              Optimal Surgical dedicated team of professionals curated by us to
-              ensure we maintain the highest quality of results and work. We can
-              handle your project from start to finish.
+            <p className="text-lg text-gray-500 font-base text-justify ">
+              I founded Optimal Surgical so that I can make a bigger difference
+              in healthcare by disrupting the status quo in the medical device
+              sector.
             </p>
+            <Link href={`/about`}>
+              <button
+                type="button"
+                className="m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-coolgray-700 hover:bg-coolgray-800 justify-end"
+              >
+                Find out more...
+              </button>
+            </Link>
           </div>
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
