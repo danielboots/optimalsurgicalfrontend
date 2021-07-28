@@ -15,18 +15,19 @@ const FeatureTitle = () => {
           <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700 text-s">
             About...
           </div>
-          Optimal Surgical is a medical device consultancy company passionate
-          about the medical device sector. Leverage our marketing / sales and
-          infrastructure expertise to increase revenue for your business. From
-          Product Launch initiatives, digital marketing and social strategy
-          development to sales coaching and professional education, our team is
-          onhand to ensure your business thrives in the digial age.
+          Optimal Surgical is a medical device consultancy and distribution
+          company passionate about the medical device sector. Leverage our
+          marketing / sales and infrastructure expertise to increase revenue for
+          your business. From New Product Introduction launches, sales coaching
+          and professional education support to digital marketing and social
+          media strategy development and implementation, our team is on hand to
+          ensure your business thrives in the digital age.
         </div>
       </div>
       <div className="px-4 flex">
         <div className=" pt-4 ">
           <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700">
-            20+ years Experience - Your in good hands
+            20+ years Experience - You are in good hands
           </div>
           Our teams 20+ years of experience across the medical device and
           digital technology space, we have seen a real need for more innovation

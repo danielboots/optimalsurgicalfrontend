@@ -2,21 +2,46 @@
 const metrics = [
   {
     id: 1,
-    stat: "29",
-    emphasis: "Major Medical Companies",
-    rest: "We work with 29 major medical companies worldwide from J&J to Ethicon and Becton Dickinson",
+    stat: "163.8%",
+    emphasis: "Growth of sales volume and 9% MS increase in 1 project",
+    rest: "",
   },
   {
     id: 2,
-    stat: "21",
-    emphasis: "Countries around the globe",
-    rest: " Our Company operates globally.",
+    stat: "71",
+    emphasis: "Courses run across 6 different countries.",
+    rest: "",
   },
   {
     id: 3,
     stat: "98%",
-    emphasis: "Customer satisfaction",
-    rest: " We work with repeat customers as we bring results",
+    emphasis:
+      "Courses and symposiums designed and implemented across 5 specialties",
+    rest: " ",
+  },
+  {
+    id: 4,
+    stat: "$2.1 million",
+    emphasis: "Education budget successfully managed",
+    rest: " ",
+  },
+  {
+    id: 5,
+    stat: "93%",
+    emphasis: "of surgeons had their learning objective met during the course",
+    rest: " ",
+  },
+  {
+    id: 6,
+    stat: "71%",
+    emphasis: "of surgeons would change their practice as result of course",
+    rest: " ",
+  },
+  {
+    id: 7,
+    stat: "23",
+    emphasis: "Product Specialists trained",
+    rest: " ",
   },
 ];
 
@@ -40,17 +65,15 @@ export default function Stats() {
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 className="text-sm font-semibold text-coolgray-600 tracking-widest uppercase">
-            OPTIMAL DATA
+          <h2 className="text-sm font-semibold text-coolgray-600 tracking-widest uppercase pb-2">
+            OPTIMAL Surgical DATA
           </h2>
+          <hr />
           <p className="mt-3 text-3xl font-bold tracking-wide text-white">
-            Get actionable data that will help grow your Medical practice
+            Why work with Optimal Surgical? <br></br> The numbers data speak for
+            themselves.
           </p>
-          <p className="mt-5 text-lg text-coolgray-300">
-            Our results speak for themselves, from working with major companies
-            to achieving global recognition and success, your business is in
-            safe hands.
-          </p>
+          <p className="mt-5 text-lg text-coolgray-300"></p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
               <p key={item.id}>

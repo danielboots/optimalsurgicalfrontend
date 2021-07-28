@@ -11,25 +11,25 @@ const EmblaCarousel = () => {
   }, [emblaApi]);
   return (
     <div
-      className="embla overflow-hidden h-96   bg-gray-900 filter grayscale"
+      className="embla overflow-hidden h-96   bg-gray-100 filter grayscale"
       ref={emblaRef}
     >
       <div className="embla__container flex ">
-        <div className="embla__slide relative flex-grow-0 flex-shrink-0  w-100 p-2 bg-white ">
+        <div className="embla__slide relative flex-grow-0 flex-shrink-0  w-100  bg-white ">
           <img
             className="object-none  w-full ..."
             src="/images/surgery1.webp"
             alt=""
           />
         </div>
-        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100  p-2 bg-white">
+        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100   bg-white">
           <img
             className="object-none  w-full ..."
             src="/images/surgery2.webp"
             alt=""
           />
         </div>
-        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100 p-2 bg-white">
+        <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100  bg-white">
           <img
             className="object-none  w-full ..."
             src="/images/surgery3.webp"
