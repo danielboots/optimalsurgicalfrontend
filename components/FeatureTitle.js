@@ -17,11 +17,12 @@ const FeatureTitle = () => {
           </div>
           Optimal Surgical is a medical device consultancy and distribution
           company passionate about the medical device sector. Leverage our
-          marketing / sales and infrastructure expertise to increase revenue for
-          your business. From New Product Introduction launches, sales coaching
-          and professional education support to digital marketing and social
-          media strategy development and implementation, our team is on hand to
-          ensure your business thrives in the digital age.
+          sales, marketing and industry expertise to increase revenue for your
+          business. <br />
+          From New Product Introduction, sales coaching and professional
+          education, to digital marketing and social media strategy development
+          and implementation. Our team is on hand to ensure your business
+          thrives in the digital age.
         </div>
       </div>
       <div className="px-4 flex">
@@ -30,10 +31,10 @@ const FeatureTitle = () => {
             20+ years Experience - You are in good hands
           </div>
           Our teams 20+ years of experience across the medical device and
-          digital technology space, we have seen a real need for more innovation
-          in both services and products in this sector. We are emerging as
-          leaders in utilising digital technologies to ensure your business is
-          future proofed and ahead of the competition.
+          digital technology space in Australia and the UK, we have seen a real
+          need for more innovation in both services and products in this sector.
+          <br /> We are emerging as leaders in utilising digital technologies to
+          ensure your business is future proofed and ahead of the competition.
         </div>
       </div>
       <div className="px-4 flex items-center ">

@@ -14,7 +14,7 @@ const Info = () => {
             About Optimal Surgical
           </h2>
           <p className="mt-2 text-white text-3xl font-bold  sm:text-4xl">
-            Professional Medical Services
+            Professional Medical Device Services
           </p>
           <p className="mt-3 text-lg text-gray-300">
             Optimal Surgicals dedicated team of professionals curated by us to

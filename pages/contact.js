@@ -51,7 +51,9 @@ const contact = () => {
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">contact@OptimalSurgical.com</span>
+                    <span className="ml-3 font-bold">
+                      contact@OptimalSurgical.com
+                    </span>
                   </dd>
                 </div>
               </dl>
@@ -60,7 +62,7 @@ const contact = () => {
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form
-                action="https://formsubmit.co/dan@vuhze.com"
+                action="https://formsubmit.co/contact@OptimalSurgical.com"
                 method="POST"
                 className="grid grid-cols-1 gap-y-6"
               >
@@ -130,12 +132,13 @@ const contact = () => {
                     id="service"
                     name="service"
                     className="block w-full shadow-sm py-3 px-6 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md "
-                    defaultValue="Production incl: Ghost Production"
+                    defaultValue="Medical Device Distribution"
                   >
-                    <option>Medical 1</option>
-                    <option>Medical 1</option>
-                    <option>Medical 1</option>
-                    <option>Medical 1</option>
+                    <option>Medical Device Distribution</option>
+                    <option>Sales force effectiveness</option>
+                    <option>Professional education </option>
+                    <option>Digital Marketing and Social Media support</option>
+                    <option>Product development / Launch</option>
                   </select>
                 </div>
 

@@ -29,6 +29,8 @@ export default function Layout({ title, keywords, description, children }) {
 
 Layout.defaultProps = {
   title: "Optimal Surgical",
-  description: "Optimal Surgical specialises in Medical Services.",
-  keywords: "Medical Services .",
+  description:
+    "Optimal Surgical is a medical device consultancy and distribution company experts within the medical device sector in Australia and New Zealand.",
+  keywords:
+    "Medical device distributors, Sales consultancy, Laparoscopic instruments, Surgical staplers, Advanced energy, Medical Sales Australia,",
 };

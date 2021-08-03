@@ -9,9 +9,9 @@ export default function Hero() {
         <h1 className=" font-body text-center font-bold z-20 tracking-wider text-3xl  sm:text-4xl md:text-6xl ">
           Optimal Surgical
         </h1>
-        <h4 className=" tracking-widest font-body text-center mt-5 z-20  text-2xl  sm:text-xl md:text-3xl  ">
-          Professional Medical Services
-        </h4>
+        <h2 className=" tracking-widest font-body text-center mt-5 z-20  text-2xl  sm:text-xl md:text-3xl  ">
+          Professional Medical Device Services.
+        </h2>
       </div>
     </div>
   );
