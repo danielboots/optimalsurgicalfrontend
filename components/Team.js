@@ -64,7 +64,7 @@ export default function Team() {
                       <img
                         className="object-cover  "
                         src={person.imageUrl}
-                        alt=""
+                        alt="Persons image url avatar"
                       />
                     </div>
                     <div className="sm:col-span-2">

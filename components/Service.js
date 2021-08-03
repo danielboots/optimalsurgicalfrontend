@@ -15,7 +15,7 @@ const Service = ({ service }) => {
           <img
             className="w-full h-16 sm:h-32 object-cover"
             src={service.mainImage.asset.url}
-            alt="meh"
+            alt="Service main image"
           />
           <div className="m-4 text-center">
             <span className=" text-coolgray-600  text-justify font-bold">

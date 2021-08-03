@@ -51,7 +51,7 @@ const Post = ({
                     <img
                       className="w-16 h-16 object-cover rounded-full "
                       src={urlFor(author.image).url()}
-                      alt="alt tag"
+                      alt="author image for post"
                     />
                     <p className=" text-coolgray-500">
                       article by: <strong>{author.name}</strong>

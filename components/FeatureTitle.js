@@ -7,7 +7,7 @@ const FeatureTitle = () => {
         <img
           src="/images/3.webp"
           className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
-          alt=""
+          alt="web surgery image"
         />
       </div>
       <div className=" px-4 mb-6 flex">
@@ -40,7 +40,7 @@ const FeatureTitle = () => {
         <img
           src="/images/surgery3.webp"
           className="justify-center hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
-          alt=""
+          alt="web surgery image"
         />
       </div>
       <Link href="/about">

@@ -28,7 +28,7 @@ export default function Header() {
                   <img
                     className=" h-6 w-auto "
                     src="/images/OLtext.png"
-                    alt=""
+                    alt="Optimal Surgical logo"
                   />
                 </Link>
                 {/* <Link href="/">

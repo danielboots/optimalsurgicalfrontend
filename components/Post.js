@@ -13,7 +13,7 @@ const Post = ({ post }) => {
             <img
               className="w-full h-32 sm:h-48 object-cover"
               src={post.mainImage.asset.url}
-              alt="alt image name"
+              alt="Post main image"
             />
             <div className="bg-indigo-600 text-white text-xs uppercase font-bold rounded opacity-90 p-2 absolute top-20 ml-2 mt-2 hover:bg-medblue-800">
               <span>{post.tag}</span>

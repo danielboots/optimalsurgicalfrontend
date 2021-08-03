@@ -5,7 +5,7 @@ const Info = () => {
         <img
           className="w-full h-full object-cover"
           src="/images/servicenew.jpg"
-          alt=""
+          alt="Service for medical industry"
         />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

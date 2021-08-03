@@ -19,21 +19,21 @@ const EmblaCarousel = () => {
           <img
             className="object-none  w-full ..."
             src="/images/surgery1.webp"
-            alt=""
+            alt="web surgery image"
           />
         </div>
         <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100   bg-white">
           <img
             className="object-none  w-full ..."
             src="/images/surgery2.webp"
-            alt=""
+            alt="web surgery image 2 in theatre"
           />
         </div>
         <div className="embla__slide relative  flex-grow-0 flex-shrink-0 w-100  bg-white">
           <img
             className="object-none  w-full ..."
             src="/images/surgery3.webp"
-            alt=""
+            alt="web surgery image"
           />
         </div>
       </div>

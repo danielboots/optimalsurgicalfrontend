@@ -35,7 +35,7 @@ const Service = ({
               <img
                 src={mainImage.asset.url}
                 className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
-                alt=""
+                alt="main image for post"
               />
             </div>
             <div className=" px-4 mb-6 flex font-body">

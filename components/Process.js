@@ -22,7 +22,7 @@ export default function Process() {
           <img
             className="h-56 w-full object-cover lg:absolute lg:h-full"
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
-            alt=""
+            alt="our process image medical industry"
           />
         </div>
       </div>
