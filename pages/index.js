@@ -11,6 +11,7 @@ import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Post from "@/components/Post";
 import Stats from "@/components/Stats";
+import Swiper from "@/components/Swiper";
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
@@ -78,6 +79,7 @@ const Home = ({ service, post }) => {
         <Hero />
 
         <FeatureTitle />
+        <Swiper />
         {/* <Carousel /> */}
         <Team />
         <About />
