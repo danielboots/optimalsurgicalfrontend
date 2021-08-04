@@ -1,4 +1,4 @@
-import Carousel from "@/components/Carousel";
+// import Carousel from "@/components/Carousel";
 import { sanityClient, urlFor } from "../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
@@ -78,7 +78,7 @@ const Home = ({ service, post }) => {
         <Hero />
 
         <FeatureTitle />
-        <Carousel />
+        {/* <Carousel /> */}
         <Team />
         <About />
         <div className=" p-4 container mx-auto font-body ">
