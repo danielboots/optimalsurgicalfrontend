@@ -7,15 +7,25 @@ import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
 // import Swiper core and required modules
-import SwiperCore, { Navigation } from "swiper/core";
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
 
 // install Swiper modules
-SwiperCore.use([Navigation]);
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 export default function App() {
   return (
     <>
-      <Swiper navigation={true} className="text-black  p-3  ">
+      <Swiper
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        className="text-black  p-3  "
+      >
         <SwiperSlide className="text-gray-900 font-bold">
           <img
             className=" object-cover w-full"
