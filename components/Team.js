@@ -39,9 +39,9 @@ export default function Team() {
             <hr />
 
             <p className="text-lg text-gray-500 font-base text-justify ">
-              I founded Optimal Surgical so that I can make a bigger difference
-              in healthcare by disrupting the status quo in the medical device
-              sector.
+              Optimal surgical was born from a desire to make a bigger
+              difference to patient outcomes and the healthcare industry by
+              disrupting the status quo in medical devices.
             </p>
             <Link href={`/about`}>
               <button

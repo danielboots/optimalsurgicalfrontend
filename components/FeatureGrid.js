@@ -28,7 +28,7 @@ const FeatureGrid = () => {
       </div>
       <div className="px-4 flex">
         <div className=" pt-4 ">
-          <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700">
+          <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700 text-left">
             20+ years Experience - You are in good hands
           </div>
           With our teams 20+ years of experience across the medical device and

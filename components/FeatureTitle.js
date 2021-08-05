@@ -19,20 +19,19 @@ const FeatureTitle = () => {
           company passionate about the medical device sector. Leverage our
           sales, marketing and industry expertise to increase revenue for your
           business. <br />
-          From New Product Introduction, sales coaching and professional
-          education, to digital marketing and social media strategy development
-          and implementation. Our team is on hand to ensure your business
-          thrives in the digital age.
+          From new product introduction to sales coaching, professional
+          education to digital marketing, our team is on hand to ensure you
+          thrive in this dynamically medical device market.
         </div>
       </div>
       <div className="px-4 flex">
         <div className=" pt-4 ">
-          <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700">
+          <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700 text-left">
             20+ years Experience - You are in good hands
           </div>
-          Our teams 20+ years of experience across the medical device and
-          digital technology space in Australia and the UK, we have seen a real
-          need for more innovation in both services and products in this sector.
+          During our teams 20+ years of time in the medical device market in
+          Australia and the UK, we have seen a real need for more innovation in
+          both products and services in this sector.
           <br /> We are emerging as leaders in utilising digital technologies to
           ensure your business is future proofed and ahead of the competition.
         </div>
