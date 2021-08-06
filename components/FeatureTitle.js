@@ -21,7 +21,7 @@ const FeatureTitle = () => {
           business. <br />
           From new product introduction to sales coaching, professional
           education to digital marketing, our team is on hand to ensure you
-          thrive in this dynamically medical device market.
+          thrive in this dynamically changing medical device market.
         </div>
       </div>
       <div className="px-4 flex">
