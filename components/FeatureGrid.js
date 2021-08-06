@@ -54,7 +54,7 @@ const FeatureGrid = () => {
       </div>
       <div className="p-4  flex items-center ">
         <img
-          src="/images/volunteering.webp"
+          src="/images/kevcharity.webp"
           className="overflow-hidden  hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt="volunteering image"
         />
