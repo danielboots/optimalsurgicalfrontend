@@ -85,8 +85,8 @@ const FeatureGrid = () => {
           intuitive for innovation. We will sit down with you face to face and
           do a design thinking workshop to understand your company, your
           challenges and your needs. Armed with this information and new ideas
-          worked out together we will work on a bespoke plan of action to
-          support you and your team execute on the change required.
+          worked out together we will develop on a bespoke plan of action, to
+          support you and your team execute on the strategy required.
         </div>
       </div>
       <div className="px-4 flex items-center ">
