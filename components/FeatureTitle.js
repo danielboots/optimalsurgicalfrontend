@@ -18,7 +18,7 @@ const FeatureTitle = () => {
           Optimal Surgical is a healthcare consultancy and distribution company
           passionate about the medical device sector. Our strength lies in our
           ability to leverage our sales, marketing and industry expertise to
-          increase the value your business brings to your customers <br />
+          increase the value your business brings to your customers. <br />
           From new product introduction to sales coaching, professional
           education to digital marketing, our team is on hand to ensure you
           thrive in this dynamically changing medical device market.
